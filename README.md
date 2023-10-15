@@ -2,8 +2,8 @@
 
 My code test submission for the Web Developer role at Canonical.
 
-- Github Repository URL: https://github.com/Hetarth02/canonical-code-test
-- Live URL: https://hetarth02.github.io/canonical-code-test/
+- Github Repository URL: [https://github.com/Hetarth02/canonical-code-test](https://github.com/Hetarth02/canonical-code-test)
+- Live URL: [https://hetarth02.github.io/canonical-code-test/](https://hetarth02.github.io/canonical-code-test/)
 
 ## Requirements
 - Node v18.17.1
