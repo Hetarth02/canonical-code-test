@@ -1,0 +1,35 @@
+@import "vanilla-framework";
+@include vanilla;
+
+$border-gray: #d9d9d9;
+$border-canonical: #a87ca0;
+
+@mixin dotted-border {
+  border-top: 1px dotted $border-gray;
+  margin: 0 0.5rem;
+  padding: 1rem 0.5rem;
+}
+
+.p-card--highlighted {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.125rem;
+  box-shadow: 0 1px 6px 0px rgba(0,0,0,0.15), 0 2px 6px 0px rgba(0,0,0,0.15), 0 0 6px 0px rgba(0,0,0,0.05);
+
+  header {
+    border-top: 3px solid $border-canonical;
+    border-radius: 2px;
+    padding: 0.5rem 1rem 0.5rem;
+  }
+
+  .body {
+    @include dotted-border();
+    height: 100%;
+  }
+  
+  .footer {
+    @include dotted-border();
+    font-size: 0.875rem;
+    max-width: 100%;
+  }
+}

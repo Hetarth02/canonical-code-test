@@ -2,15 +2,24 @@
     "name": "canonical-code-test",
     "version": "1.0.0",
     "description": "Canonical Code Test Solution",
-    "main": "index.js",
+    "main": "main.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch-css": "sass -w --load-path=node_modules src:. --style=compressed --no-source-map",
+        "build": "sass --load-path=node_modules src:. --style=compressed --no-source-map",
+        "start": "sass --load-path=node_modules src:. --style=compressed --no-source-map && serve"
     },
     "keywords": [],
     "author": "Hetarth Shah",
     "license": "ISC",
-    "dependencies": {},
+    "dependencies": {
+        "sass": "^1.69.3",
+        "vanilla-framework": "^4.4.0"
+    },
     "engines": {
         "node": "18.17.1"
+    },
+    "devDependencies": {
+        "serve": "^14.2.1"
     }
 }
