@@ -2,23 +2,29 @@
 
 My code test submission for the Web Developer role at Canonical.
 
-Live URL: https://hetarth02.github.io/canonical-code-test/
+- Github Repository URL: https://github.com/Hetarth02/canonical-code-test
+- Live URL: https://hetarth02.github.io/canonical-code-test/
 
 ## Requirements
 - Node v18.17.1
 
 ## Run Locally
-In developing mode run the below command for auto-compile of sass files when change happens in them.
+1. Install dependencies.
 ```sh
-  npm run watch-css
+npm i
 ```
 
-To build the production build
+2. In developing mode run the below command for auto-compile of sass files when change happens in them.
 ```sh
-  npm run build
+npm run watch-css
 ```
 
-Start the server
+3. For the production build
 ```sh
-  npm start
+npm run build
+```
+
+4. Start the server
+```sh
+npm start
 ```
