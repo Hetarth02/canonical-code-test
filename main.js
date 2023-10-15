@@ -60,14 +60,13 @@ function generateCard(post) {
     let card = `
         <div class="p-card--highlighted u-no-padding col-4">
             <header>
-                <h5 class="p-muted-heading u-no-margin--bottom">${post.topic}</h5>
+                <h3 class="p-muted-heading u-no-margin--bottom">${post.topic}</h3>
             </header>
             <div class="p-card__content body">
                 <div>
                     <a href="${post.link}" aria-hidden="true" tabindex="-1">
                         <img
                             alt="${post.title}"
-                            loading="lazy"
                             src=${post.imageSource}
                         />
                     </a>
